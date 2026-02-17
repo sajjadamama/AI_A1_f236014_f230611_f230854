@@ -18,12 +18,12 @@ An interactive pathfinding visualizer built with **Pygame** that animates six cl
 
 | Key | Algorithm | Strategy | Optimal? |
 |-----|-----------|----------|----------|
-| `Space` | **BFS** (Breadth-First Search) | Explores layer by layer | ✅ Yes (uniform cost) |
-| `D` | **DFS** (Depth-First Search) | Dives deep before backtracking | ❌ No |
-| `L` | **DLS** (Depth-Limited Search) | DFS with a depth cap of 10 | ❌ No |
-| `I` | **IDDFS** (Iterative Deepening DFS) | Repeating DLS with increasing depth | ✅ Yes |
-| `U` | **UCS** (Uniform-Cost Search) | Expands lowest-cost node first | ✅ Yes |
-| `B` | **Bidirectional Search** | Searches simultaneously from both ends | ✅ Yes |
+| `Space` | **BFS** (Breadth-First Search) | Explores layer by layer | Yes (uniform cost) |
+| `D` | **DFS** (Depth-First Search) | Dives deep before backtracking |  No |
+| `L` | **DLS** (Depth-Limited Search) | DFS with a depth cap of 10 | No |
+| `I` | **IDDFS** (Iterative Deepening DFS) | Repeating DLS with increasing depth |  Yes |
+| `U` | **UCS** (Uniform-Cost Search) | Expands lowest-cost node first |  Yes |
+| `B` | **Bidirectional Search** | Searches simultaneously from both ends |  Yes |
 
 ---
 
